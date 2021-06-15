@@ -1,0 +1,7 @@
+C:\Users\admin\Desktop\Estudo Isoplan\Exemplos de Código\ChainOfResponsability_Pattern\obj\Debug\ChainOfResponsability_Pattern.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\Estudo Isoplan\Exemplos de Código\ChainOfResponsability_Pattern\obj\Debug\ChainOfResponsability_Pattern.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Estudo Isoplan\Exemplos de Código\ChainOfResponsability_Pattern\bin\Debug\ChainOfResponsability_Pattern.exe.config
+C:\Users\admin\Desktop\Estudo Isoplan\Exemplos de Código\ChainOfResponsability_Pattern\bin\Debug\ChainOfResponsability_Pattern.exe
+C:\Users\admin\Desktop\Estudo Isoplan\Exemplos de Código\ChainOfResponsability_Pattern\bin\Debug\ChainOfResponsability_Pattern.pdb
+C:\Users\admin\Desktop\Estudo Isoplan\Exemplos de Código\ChainOfResponsability_Pattern\obj\Debug\ChainOfResponsability_Pattern.exe
+C:\Users\admin\Desktop\Estudo Isoplan\Exemplos de Código\ChainOfResponsability_Pattern\obj\Debug\ChainOfResponsability_Pattern.pdb

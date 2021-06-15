@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<ArrayOfUsuario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Usuario>
+    <Login>andre_cini</Login>
+    <Senha>admin</Senha>
+    <Email>andre_cini@gmail.com</Email>
+  </Usuario>
+  <Usuario>
+    <Login>ricardo_saat</Login>
+    <Senha>admin</Senha>
+    <Email>ricardo_saat@gmail.com</Email>
+  </Usuario>
+  <Usuario>
+    <Login>guilherme_turtera</Login>
+    <Senha>admin</Senha>
+    <Email>guilherme_turtera@gmail.com</Email>
+  </Usuario>
+</ArrayOfUsuario>
