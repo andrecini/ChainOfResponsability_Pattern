@@ -8,8 +8,16 @@ using System.Xml.Serialization;
 
 namespace ChainOfResponsability_Pattern
 {
+    /// <summary>
+    /// Classe responsável por Serializar e Desserializar Registros de usuários
+    /// </summary>
     public class Serializador
     {
+        /// <summary>
+        /// Serializa a Lista de Usuários.
+        /// </summary>
+        /// <param name="usuarios">Lista de usuários</param>
+        /// <param name="fileName">Nome do Arquivo</param>
         public static void Serialize(List<Usuario> usuarios, string fileName)
         {
             FileStream stream = new FileStream(Directory.GetCurrentDirectory() + fileName, FileMode.Create);
@@ -18,6 +26,11 @@ namespace ChainOfResponsability_Pattern
             stream.Close();
         }
 
+        /// <summary>
+        /// Desserializa a Lista de Usuários
+        /// </summary>
+        /// <param name="fileName">Nome do Arquivo</param>
+        /// <returns>Lista de Usuários Desserializada</returns>
         public static List<Usuario> Deserialize(string fileName)
         {
             FileStream stream = new FileStream(Directory.GetCurrentDirectory() + fileName, FileMode.Open);

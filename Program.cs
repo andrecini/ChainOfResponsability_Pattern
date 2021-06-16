@@ -31,6 +31,9 @@ namespace ChainOfResponsability_Pattern
             {
                 VerificadorLogin verificadorLogin = new VerificadorLogin();
 
+                //Verifica o Login -> Verifica Senha -> Procura Usuário -> Devolve Usuário Final
+                //              |                 '-> Senha Incorrta!
+                //              '-> Usuário não encontrado!
                 verificadorLogin.SetNext(new VerificadorSenha()).SetNext(new ProcuradorUsuarioLogado());
 
                 var usuarioLogado = verificadorLogin.Handle(usuario);
